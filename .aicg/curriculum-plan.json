@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "role_id": "senior-agentic-ai-engineer",
+  "title": "Senior Agentic AI Engineer",
+  "level": 40,
+  "notes": "Staff/tech-lead build rung bridging agentic-ai-engineer (L30, build) and agentic-systems-architect (L48, design). Owns implementation of production multi-agent subsystems, builds shared eval/observability/reliability infrastructure, leads incident response, and mentors engineers. Build fundamentals are owned by the L30 engineer track and linked, not re-taught; this track adds depth, production scale, and technical leadership. Seeded from role research 2026-06-15; broaden on first nightly research cycle.",
+  "modules": [
+    {
+      "id": "mod-401-agent-systems-in-practice",
+      "title": "Implementing Agent Systems from an Architecture",
+      "hours": 14,
+      "objectives": [
+        "Turn a reference architecture into a production implementation; own a subsystem end to end",
+        "Make and document implementation-level tradeoffs (framework choice, state, tool boundaries)",
+        "Refactor a prototype agent into a maintainable, testable codebase",
+        "Drive build-vs-buy and complexity decisions at the subsystem level"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "architecture-to-implementation", "hours": 3},
+        {"id": "exercise-02", "slug": "subsystem-ownership", "hours": 4},
+        {"id": "exercise-03", "slug": "prototype-to-production-refactor", "hours": 4}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-402-eval-observability-infra",
+      "title": "Building Eval & Observability Infrastructure",
+      "hours": 14,
+      "objectives": [
+        "Build a reusable evaluation harness (trajectory + tool-call + LLM-judge) for a team",
+        "Stand up OpenTelemetry-based tracing and dashboards for agent fleets",
+        "Define quality signals and regression gates that block bad deploys",
+        "Make eval/observability a paved road other engineers adopt"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "reusable-eval-harness", "hours": 4},
+        {"id": "exercise-02", "slug": "tracing-and-dashboards", "hours": 4},
+        {"id": "exercise-03", "slug": "regression-gates", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-403-multi-agent-at-scale",
+      "title": "Multi-Agent Systems at Scale",
+      "hours": 12,
+      "objectives": [
+        "Implement orchestration topologies that hold up under load and partial failure",
+        "Manage token economics and latency budgets in production",
+        "Apply durable execution and resumption for long-running agent workloads",
+        "Harden inter-agent communication and tool integrations"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "orchestration-under-load", "hours": 4},
+        {"id": "exercise-02", "slug": "durable-execution-in-production", "hours": 4},
+        {"id": "exercise-03", "slug": "token-and-latency-budgets", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-404-reliability-cost-incident",
+      "title": "Reliability, Cost & Incident Response",
+      "hours": 12,
+      "objectives": [
+        "Define SLOs/SLIs for agentic systems and alert on quality drift, not just uptime",
+        "Build cost controls and budgets into running systems",
+        "Run incident response for agent failures (bad outputs, runaway loops, tool misuse)",
+        "Write postmortems and drive durable fixes"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "agentic-slos", "hours": 3},
+        {"id": "exercise-02", "slug": "cost-controls-in-production", "hours": 3},
+        {"id": "exercise-03", "slug": "agent-incident-response", "hours": 4}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-405-technical-leadership",
+      "title": "Technical Leadership for Agentic Teams",
+      "hours": 10,
+      "objectives": [
+        "Lead code review for agent systems with a focus on safety and reliability",
+        "Mentor engineers and set implementation standards/paved roads",
+        "Translate between the architect's design and the team's execution",
+        "Scope and sequence delivery of an agentic initiative"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "agent-code-review-standards", "hours": 3},
+        {"id": "exercise-02", "slug": "paved-roads-and-standards", "hours": 3},
+        {"id": "exercise-03", "slug": "scoping-and-sequencing", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-401-production-subsystem",
+      "title": "Capstone: Lead-Build a Production Multi-Agent Subsystem",
+      "hours": 25,
+      "description": "Implement a production multi-agent subsystem from a given architecture, with a reusable eval harness, OTel tracing, SLOs, cost controls, and durable execution. Deliver an implementation, runbook, and a code-review/standards doc for the team."
+    },
+    {
+      "id": "project-402-reliability-hardening",
+      "title": "Reliability & Incident-Response Hardening",
+      "hours": 15,
+      "description": "Take an existing agent system, define SLOs and quality-drift alerts, run a simulated incident (runaway loop / bad output / tool misuse), mitigate it, and write the postmortem with durable fixes."
+    }
+  ]
+}
