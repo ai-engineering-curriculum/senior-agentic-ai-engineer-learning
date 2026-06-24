@@ -6,7 +6,7 @@
 
 Staff/tech-lead build rung: leads implementation of production multi-agent systems, owns subsystems and eval/observability infra, mentors engineers, bridges build to architecture.
 
-> **Status**: scaffolded by `aicg org bootstrap-role`. The curriculum is not authored yet. Run `aicg org research` and `aicg org daily` to drive the autonomous fill-in loop.
+> **Status**: ✅ Curriculum complete — modules, lecture chapters, exercises, and quizzes authored. AI-assisted content under ongoing human review.
 
 ## Layout
 
