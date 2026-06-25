@@ -4,7 +4,7 @@
 
 A junior engineer instruments *their* agent: they capture a trajectory, wire one trace exporter, and write a handful of asserts. That works for one service. It does not scale to a fleet. When ten teams each roll their own eval script, their own span names, and their own definition of "good," you get ten incompatible quality stories and zero ability to compare, gate, or trust any of them. This module is where you stop instrumenting one agent and start building the **infrastructure** that every agent team in your org runs on: a reusable eval harness, a fleet-wide tracing standard, regression gates that block bad deploys, and a paved road that makes the right thing the easy thing.
 
-> **Build the platform, not the probe.** You already know how to evaluate and trace a single agent (that was [mod-205](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-205-evaluation-observability) at the junior rung). Your job now is to package those capabilities so a teammate adopts them in an afternoon, not a sprint — and so a regression can never reach production unnoticed.
+> **Build the platform, not the probe.** You already know how to evaluate and trace a single agent (that was [mod-205](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-205-evaluation-observability) at the junior rung). Your job now is to package those capabilities so a teammate adopts them in an afternoon, not a sprint — and so a regression can never reach production unnoticed.
 
 ## Learning objectives
 
@@ -22,7 +22,7 @@ A junior engineer instruments *their* agent: they capture a trajectory, wire one
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions).
 
 - [exercise-01: Build a reusable eval harness](exercises/exercise-01-reusable-eval-harness.md) — package trajectory, tool-call, and judge graders behind one interface two teams can share.
 - [exercise-02: Tracing and dashboards](exercises/exercise-02-tracing-and-dashboards.md) — instrument with OTel GenAI conventions and stand up fleet dashboards.

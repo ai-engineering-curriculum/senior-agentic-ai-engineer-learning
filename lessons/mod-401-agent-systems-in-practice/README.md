@@ -22,7 +22,7 @@ By now you can build the patterns. This module is about what changes when you bu
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions).
 
 - [exercise-01: Architecture to implementation](exercises/exercise-01-architecture-to-implementation.md) — take a one-page reference architecture and produce a subsystem with a stable interface, an ADR, and a test seam.
 - [exercise-02: Subsystem ownership](exercises/exercise-02-subsystem-ownership.md) — own a tool-execution subsystem end to end: contract, failure policy, observability, and a runbook.
@@ -30,7 +30,7 @@ Hands-on practice. Reference solutions live in the paired [solutions repo](https
 
 ## Prerequisites
 
-- [mod-204: Multi-Agent Systems Implementation](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation) — you implemented these patterns by hand; here you build them from an architecture.
+- [mod-204: Multi-Agent Systems Implementation](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation) — you implemented these patterns by hand; here you build them from an architecture.
 - Comfort designing interfaces and writing tests in a typed language (Python with type hints, or TypeScript).
 - Familiarity with at least one agent framework (LangGraph, the OpenAI Agents SDK, or the Claude Agent SDK) so framework-choice tradeoffs are concrete rather than abstract.
 

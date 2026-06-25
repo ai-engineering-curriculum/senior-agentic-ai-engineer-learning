@@ -13,7 +13,7 @@ This exercise covers material from:
 - [Chapter 1 — Orchestration Topologies Under Load](../01-orchestration-under-load.md)
 - [Chapter 2 — Token Economics and Latency Budgets](../02-token-and-latency-budgets.md) (for setting timeouts from a latency budget)
 
-Start from an orchestrator-worker system like the one you built in [mod-204 exercise-01](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation/exercises/exercise-01-orchestrator-worker-build.md). To keep the load test cheap and deterministic, stub the model call with a function that sleeps a configurable, variable amount and occasionally raises — you're testing the *orchestration*, not the model.
+Start from an orchestrator-worker system like the one you built in [mod-204 exercise-01](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation/exercises/exercise-01-orchestrator-worker-build.md). To keep the load test cheap and deterministic, stub the model call with a function that sleeps a configurable, variable amount and occasionally raises — you're testing the *orchestration*, not the model.
 
 ## Prerequisites
 

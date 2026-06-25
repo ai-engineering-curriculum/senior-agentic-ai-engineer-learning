@@ -52,7 +52,7 @@ This is where prototypes and production implementations diverge. A prototype cal
 
 ## Trace one request end to end before you call it done
 
-The cheapest way to find a contract violation is to follow a single real request through your subsystem and check every promise at the boundary. Did it return the declared type? Did it stay idempotent when you replayed the same `call.id`? Did an upstream tool timeout surface as `status=error` rather than an exception that escaped the box? A senior engineer does this trace deliberately and writes it up as the subsystem's first integration test — the same instinct as the single-request trace you ran in [mod-204's orchestrator-worker build](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation), now applied to a boundary you must defend to others.
+The cheapest way to find a contract violation is to follow a single real request through your subsystem and check every promise at the boundary. Did it return the declared type? Did it stay idempotent when you replayed the same `call.id`? Did an upstream tool timeout surface as `status=error` rather than an exception that escaped the box? A senior engineer does this trace deliberately and writes it up as the subsystem's first integration test — the same instinct as the single-request trace you ran in [mod-204's orchestrator-worker build](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation), now applied to a boundary you must defend to others.
 
 ## Key takeaways
 

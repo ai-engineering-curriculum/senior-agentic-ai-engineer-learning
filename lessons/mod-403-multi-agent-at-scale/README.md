@@ -24,7 +24,7 @@ This module rebuilds the patterns from a scale and reliability lens. You'll engi
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions).
 
 - [exercise-01: Orchestration under load](exercises/exercise-01-orchestration-under-load.md) — load-test an orchestrator-worker system, add bounded concurrency and backpressure, and prove it degrades gracefully.
 - [exercise-02: Durable execution in production](exercises/exercise-02-durable-execution-in-production.md) — checkpoint a long-running workflow so a mid-run crash resumes instead of restarting.
@@ -36,7 +36,7 @@ Hands-on practice. Reference solutions live in the paired [solutions repo](https
 
 ## Prerequisites
 
-- [mod-204: Multi-Agent Implementation](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation) — you can build orchestrator-worker, handoffs, and sub-agent isolation by hand.
+- [mod-204: Multi-Agent Implementation](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation) — you can build orchestrator-worker, handoffs, and sub-agent isolation by hand.
 - [mod-402: Eval & Observability Infrastructure](../mod-402-eval-observability-infra/README.md) — tracing and metrics you'll lean on to measure load and cost.
 - Comfort with `async` Python, queues, and at-least-once delivery semantics.
 

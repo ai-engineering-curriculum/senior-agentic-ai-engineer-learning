@@ -22,7 +22,7 @@ At L40 you stop being the person who writes the cleverest agent loop and become 
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions).
 
 - [exercise-01: Agent code review standards](exercises/exercise-01-agent-code-review-standards.md) — apply a safety-and-reliability review rubric to a real agent PR and write the review.
 - [exercise-02: Paved roads and standards](exercises/exercise-02-paved-roads-and-standards.md) — write a paved-road RFC and golden-path template the team will actually adopt.

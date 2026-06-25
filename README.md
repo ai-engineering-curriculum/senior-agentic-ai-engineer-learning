@@ -18,7 +18,7 @@ runs on, owning reliability and the cloud bill, and mentoring the engineers who 
 ## 🎯 Overview
 
 This repository is the **Senior Agentic AI Engineer** stage of the AI Infrastructure Curriculum.
-It sits between the [Agentic AI Engineer](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning)
+It sits between the [Agentic AI Engineer](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning)
 rung (L30, build) and the Agentic Systems Architect rung (L48, design). Build fundamentals are
 owned by the L30 track and linked, not re-taught; this track adds **depth, production scale, and
 technical leadership**.
@@ -62,7 +62,7 @@ team make safe decisions without you in the room.
 ## 🛠️ Projects
 
 Multi-module capstones that integrate the track. Reference implementations live in the
-[paired solutions repo](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions).
+[paired solutions repo](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions).
 
 | Project | Focus | Hours |
 |---------|-------|-------|
@@ -82,12 +82,12 @@ Multi-module capstones that integrate the track. Reference implementations live 
 
 This is the **L40 rung** of the Agentic AI track and assumes you can already build agent and
 multi-agent patterns by hand. The intended entry point is the
-[**Agentic AI Engineer**](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning)
+[**Agentic AI Engineer**](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning)
 rung (L30) — in particular:
 
-- [mod-204: Multi-Agent Systems Implementation](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation)
+- [mod-204: Multi-Agent Systems Implementation](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation)
   — orchestrator-worker loops, handoffs, and sub-agent isolation, implemented by hand.
-- [mod-205: Evaluation & Observability](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-205-evaluation-observability)
+- [mod-205: Evaluation & Observability](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-205-evaluation-observability)
   — single-agent trajectory/tool-call grading and OpenTelemetry tracing.
 
 You should also be comfortable with:
@@ -105,7 +105,7 @@ See [PREREQUISITES.md](./PREREQUISITES.md) for the full entry-skills checklist.
 ## 🚀 Getting Started
 
 1. **Confirm prerequisites.** Skim [PREREQUISITES.md](./PREREQUISITES.md). If anything is unfamiliar,
-   complete the linked [Agentic AI Engineer](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning)
+   complete the linked [Agentic AI Engineer](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning)
    modules first.
 2. **Work the modules in order** — mod-401 → mod-405. Later modules lean on earlier ones (you can't
    define SLOs in mod-404 without the traces you built in mod-402).
@@ -117,7 +117,7 @@ See [PREREQUISITES.md](./PREREQUISITES.md) for the full entry-skills checklist.
    ```
 
 4. **Attempt exercises before opening solutions.** Reference solutions live in the paired
-   [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions) —
+   [solutions repo](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions) —
    use it to check your work, not to skip it.
 5. **Finish with the projects.** Tackle the capstones in `projects/` once the modules are behind you.
 
@@ -185,7 +185,7 @@ de-risks the unknowns first.
 ## 🔗 Paired Solutions Repo
 
 Reference implementations for every exercise and project live in
-[`ai-infra-senior-agentic-ai-engineer-solutions`](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions).
+[`ai-infra-senior-agentic-ai-engineer-solutions`](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions).
 Attempt the work here first; use the solutions repo to check your reasoning.
 
 ---

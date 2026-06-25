@@ -22,7 +22,7 @@ Agentic systems fail in ways traditional services don't. A web service that retu
 
 ## Exercises
 
-Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-infra-curriculum/ai-infra-senior-agentic-ai-engineer-solutions).
+Hands-on practice. Reference solutions live in the paired [solutions repo](https://github.com/ai-engineering-curriculum/senior-agentic-ai-engineer-solutions).
 
 - [exercise-01: Define agentic SLOs](exercises/exercise-01-agentic-slos.md) — pick SLIs for quality drift, compute them from traces, set targets and an error budget.
 - [exercise-02: Cost controls in production](exercises/exercise-02-cost-controls-in-production.md) — build a per-run budget guard and a per-tenant circuit breaker that fail closed.

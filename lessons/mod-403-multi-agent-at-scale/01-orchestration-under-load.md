@@ -1,6 +1,6 @@
 # Chapter 1 — Orchestration Topologies Under Load
 
-A multi-agent system that works for one request can collapse at a thousand. The orchestrator-worker pattern from [mod-204](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation) fans out concurrently — which is exactly what makes it dangerous at scale. Each request can spawn N workers, each worker holds a model connection, and the total in-flight work is the product of request rate and fan-out. Under load that product is what saturates your provider quota, your event loop, and your wallet.
+A multi-agent system that works for one request can collapse at a thousand. The orchestrator-worker pattern from [mod-204](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation) fans out concurrently — which is exactly what makes it dangerous at scale. Each request can spawn N workers, each worker holds a model connection, and the total in-flight work is the product of request rate and fan-out. Under load that product is what saturates your provider quota, your event loop, and your wallet.
 
 This chapter is about keeping the topology *bounded* and *degrading on purpose* instead of collapsing by accident.
 
