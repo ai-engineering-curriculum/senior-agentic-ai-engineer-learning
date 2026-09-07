@@ -28,6 +28,10 @@ Hands-on practice. Reference solutions live in the paired [solutions repo](https
 - [exercise-02: Subsystem ownership](exercises/exercise-02-subsystem-ownership.md) — own a tool-execution subsystem end to end: contract, failure policy, observability, and a runbook.
 - [exercise-03: Prototype to production refactor](exercises/exercise-03-prototype-to-production-refactor.md) — refactor a single-file prototype agent into a layered, tested codebase with behavior held constant.
 
+## Quiz
+
+- [Knowledge check](quizzes/README.md) — ten judgment-oriented questions on contracts, tradeoffs, refactoring, and build-vs-buy, with an answer key.
+
 ## Prerequisites
 
 - [mod-204: Multi-Agent Systems Implementation](https://github.com/ai-engineering-curriculum/agentic-ai-engineer-learning/tree/main/lessons/mod-204-multi-agent-implementation) — you implemented these patterns by hand; here you build them from an architecture.
