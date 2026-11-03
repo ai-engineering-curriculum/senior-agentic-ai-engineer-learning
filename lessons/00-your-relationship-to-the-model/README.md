@@ -45,8 +45,9 @@ Each row is a sibling org: what you hand them, what they hand you, and the role 
 
 ## Your ladder
 
-- **Before this role:** [Forward Deployed AI Engineer](https://github.com/ai-engineering-curriculum/forward-deployed-engineer-learning)
-- **After this role:** [Agentic Systems Architect](https://github.com/ai-engineering-curriculum/agentic-systems-architect-learning)
+- **Before this role:** [Forward Deployed AI Engineer](https://github.com/ai-engineering-curriculum/forward-deployed-engineer-learning), [Voice & Multimodal Agent Engineer](https://github.com/ai-engineering-curriculum/voice-agent-engineer-learning)
+- **Alongside it (same level):** [Agent Platform Engineer](https://github.com/ai-engineering-curriculum/agent-platform-engineer-learning)
+- **After this role:** [AI Engineering Manager](https://github.com/ai-engineering-curriculum/ai-engineering-manager-learning)
 
 ## Scenario: One model upgrade, five orgs
 
